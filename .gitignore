@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.local
+config.yaml
+bazos_data/*.csv
+bazos_data/*.json
+.venv/
+venv/
+.DS_Store
+Thumbs.db

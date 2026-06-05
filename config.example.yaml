@@ -1,0 +1,80 @@
+# =================================================
+# Bazoš Car Watcher - Konfigurácia
+# =================================================
+
+# Telegram nastavenia
+telegram:
+  bot_token: "YOUR_TELEGRAM_BOT_TOKEN"
+  chat_id: "YOUR_TELEGRAM_CHAT_ID"
+
+# Časovanie
+timing:
+  check_every_hours: 1
+
+# Lokalita (editovateľné cez GUI)
+location:
+  hlokalita: "97101"  # PSČ (Prievidza)
+  humkreis: 5         # Okolie v km
+
+# Filtre
+filters:
+  min_year: 2005
+  max_km: 300000
+  min_price: 1500     # Minimálna cena (eliminuje diely)
+  min_score: 2
+  pages_per_list: 10
+
+# Category ID pre každú značku (Bazoš interné ID)
+category_ids:
+  volkswagen: 94
+  skoda: 92
+  audi: 79
+  bmw: 80
+  mercedes: 86
+  seat: 91
+  toyota: 93
+  honda: 116
+  mazda: 85
+  hyundai: 84
+  kia: 118
+  dacia: 457
+  fiat: 82
+  mitsubishi: 441
+  suzuki: 119
+
+# Značky a povolené palivá
+brands:
+  volkswagen: [benz, dies]
+  skoda: [benz, dies]
+  audi: [benz, dies]
+  mercedes-benz: [benz, dies]
+  mercedes: [benz, dies]
+  bmw: [benz, dies]
+  seat: [benz, dies]
+  toyota: [benz]
+  mitsubishi: [benz, dies]
+  honda: [benz]
+  suzuki: [benz]
+  mazda: [benz]
+  hyundai: [benz, dies]
+  kia: [benz, dies]
+  dacia: [benz]
+  fiat: [dies]
+
+# Bazoš URLs (generované automaticky z category_ids + location)
+bazos_urls:
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=94&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=92&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=79&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=80&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=86&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=91&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=93&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=116&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=85&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=84&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=118&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=457&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=82&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=441&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
+  - "https://auto.bazos.sk/?hledat=&rubriky=auto&category=119&hlokalita=97101&humkreis=5&cenaod=&cenado=&order="
