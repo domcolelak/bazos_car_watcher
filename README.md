@@ -1,6 +1,8 @@
-# 🚗 Bazoš Car Watcher - Kompletný návod
+# Bazoš Car Watcher
 
-Automatický sledovač inzerátov áut na Bazoš.sk s webovým rozhraním pre jednoduchú správu.
+Automatický sledovač inzerátov áut na Bazoš.sk — email notifikácie, filtrovanie podľa ceny/km/roku, webové admin rozhranie.
+
+![Bazoš Car Watcher preview](docs/screenshots/preview.png)
 
 ## 📦 Čo obsahuje balík:
 
